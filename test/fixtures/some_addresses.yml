@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://finder-api.eircode.ie/api/autocomplete/en?addressline=the%20priory%20dublin&key=874d0fd8-d94a-418a-8089-5d901019f88c
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 14 Jul 2015 13:39:31 GMT
+      Expires:
+      - '-1'
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1589'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "{\r\n  \"totalMatches\": 10,\r\n  \"addresses\": [\r\n    {\r\n      \"id\":
+        \"01b32136-5fbf-4081-a1bb-d5b1a223ecee\",\r\n      \"address\": \"THE PRIORY,
+        KILTIPPER ROAD, DUBLIN 24\",\r\n      \"unique\": true\r\n    },\r\n    {\r\n
+        \     \"id\": \"c7dc8456-cf3e-400b-bde2-416f503ac5b7\",\r\n      \"address\":
+        \"THE PRIORY, GREENHILLS ROAD, DUBLIN 24\",\r\n      \"unique\": true\r\n
+        \   },\r\n    {\r\n      \"id\": \"0177810a-0b4f-48a5-a871-c45509ea6eef\",\r\n
+        \     \"address\": \"THE PRIORY, MONKSTOWN ROAD, MONKSTOWN, BLACKROCK, CO.
+        DUBLIN\",\r\n      \"unique\": true\r\n    },\r\n    {\r\n      \"id\": \"ccd790dc-9063-417f-83b2-a36932c358a2\",\r\n
+        \     \"address\": \"THE PRIORY, 409 STILLORGAN ROAD, BLACKROCK, CO. DUBLIN\",\r\n
+        \     \"unique\": true\r\n    },\r\n    {\r\n      \"id\": \"740bef43-35b7-4625-a85b-f17c9c8ad9a8\",\r\n
+        \     \"address\": \"THE PRIORY, DUBLIN 16\",\r\n      \"unique\": false\r\n
+        \   },\r\n    {\r\n      \"id\": \"7e6056fd-6f05-48d8-a9d7-e64daef946d0\",\r\n
+        \     \"address\": \"THE PRIORY, JOHN STREET, DUBLIN 8\",\r\n      \"unique\":
+        true\r\n    },\r\n    {\r\n      \"id\": \"d7697fe7-41a6-4404-8014-d316366e12c6\",\r\n
+        \     \"address\": \"THE PRIORY, DONABATE, CO. DUBLIN\",\r\n      \"unique\":
+        false\r\n    },\r\n    {\r\n      \"id\": \"e55c2834-fc38-4295-9877-989947fadf64\",\r\n
+        \     \"address\": \"THE PRIORY, MAIN STREET, MALAHIDE, CO. DUBLIN\",\r\n
+        \     \"unique\": false\r\n    },\r\n    {\r\n      \"id\": \"3aa59f89-b7fd-4faa-8d21-a6f94080da60\",\r\n
+        \     \"address\": \"THE PRIORY, DUBLIN 7\",\r\n      \"unique\": false\r\n
+        \   },\r\n    {\r\n      \"id\": \"0ec9cbfd-8654-4c5c-85fb-51d29116fce8\",\r\n
+        \     \"address\": \"THE PRIORY CLINIC, 17/18 PRIORY HALL, STILLORGAN ROAD,
+        BLACKROCK, CO. DUBLIN\",\r\n      \"unique\": true\r\n    }\r\n  ]\r\n}"
+    http_version: 
+  recorded_at: Tue, 14 Jul 2015 13:40:00 GMT
+recorded_with: VCR 2.9.3
