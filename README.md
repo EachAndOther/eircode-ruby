@@ -1,6 +1,6 @@
 # Eircode
 
-TODO: Write a gem description
+Simple Gem to wrap the public Eircode API
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Use at your own risk!
 
 ## Contributing
 
